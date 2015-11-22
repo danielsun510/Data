@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/FrontMain.jsp=UTF-8
+encoding//WebContent/Front_Register.jsp=UTF-8
+encoding//WebContent/Sys_Addgood.jsp=UTF-8
+encoding//WebContent/Sys_Changegood.jsp=UTF-8
+encoding//WebContent/Sys_Editgood.jsp=UTF-8
+encoding//WebContent/Sys_main.jsp=UTF-8
+encoding//src/com/infsci/servlet/AddGoodServlet.java=GBK

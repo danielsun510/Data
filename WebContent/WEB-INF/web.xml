@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee   http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>ShoppingManage</display-name>
+
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.infsci.servlet.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>AddGoodServlet</servlet-name>
+		<servlet-class>com.infsci.servlet.AddGoodServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddGoodServlet</servlet-name>
+		<url-pattern>/AddGood</url-pattern>
+	</servlet-mapping>
+
+
+
+<servlet>
+  	<servlet-name>Member_LoginServlet</servlet-name>
+  	<servlet-class>com.infsci.servlet.Member_LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Member_LoginServlet</servlet-name>
+  	<url-pattern>/Mem_Login</url-pattern>
+  </servlet-mapping>
+ <servlet>
+  	<servlet-name>Member_LogoutServlet</servlet-name>
+  	<servlet-class>com.infsci.servlet.Member_LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Member_LogoutServlet</servlet-name>
+  	<url-pattern>/Member_Logout</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+  	<servlet-name>Member_RegisterServlet</servlet-name>
+  	<servlet-class>com.infsci.servlet.Member_RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Member_RegisterServlet</servlet-name>
+  	<url-pattern>/Mem_Register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Check_m_nameServlet</servlet-name>
+  	<servlet-class>com.infsci.servlet.Check_m_nameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Check_m_nameServlet</servlet-name>
+  	<url-pattern>/Check_m_name</url-pattern>
+  </servlet-mapping>
+<!--  
+	<servlet>
+		<servlet-name>EditGoodServlet</servlet-name>
+		<servlet-class>com.hzgg.servlet.EditGoodServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditGoodServlet</servlet-name>
+		<url-pattern>/EditGood</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>DeleteGoodServlet</servlet-name>
+		<servlet-class>com.hzgg.servlet.DeleteGoodServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteGoodServlet</servlet-name>
+		<url-pattern>/DeleteGood</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>ChangeGoodServlet</servlet-name>
+		<servlet-class>com.hzgg.servlet.ChangeGoodServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ChangeGoodServlet</servlet-name>
+		<url-pattern>/ChangeGood</url-pattern>
+	</servlet-mapping>
+-->
+	<!-- 设置默认文件名称 -->
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

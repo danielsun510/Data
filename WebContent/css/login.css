@@ -1,0 +1,64 @@
+
+
+
+body{
+
+background-color: #ede9de;
+
+
+}
+
+
+div{
+	
+	padding: 15px;
+	background-color: #ffffff;
+	
+}
+
+
+
+div.div0{
+	width:800px;
+	height:400px;
+  position: absolute;
+  left: 280px;
+  top: 120px;
+  background-image: url(../images/login1.jpg);
+	background-repeat:no-repeat;
+}
+
+div.div1{
+	width:600px;
+	height:70px;
+  position: absolute;
+  left: 200px;
+  top: 300px;
+	
+}
+
+div.div2{
+	width:190px;
+	height:40px;
+  float: left;
+	
+}
+
+div.div22{
+	width:120px;
+	height:40px;
+  float: right;
+	
+}
+
+
+
+p{
+   float: left;
+   font-size:11px;
+   text-align:center;
+   color:#0000CD;
+
+}
+
+
